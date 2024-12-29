@@ -1,8 +1,6 @@
 # Customer-Churn-Prediction
 "A machine learning project to predict customer churn using Python and ML models."
 
-# Customer Churn Prediction
-
 ## Project Overview
 This project predicts customer churn using machine learning techniques. It aims to help businesses identify at-risk customers and improve retention strategies.
 
