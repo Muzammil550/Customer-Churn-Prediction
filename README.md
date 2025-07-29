@@ -12,15 +12,15 @@ The dataset contains customer demographics, service usage, and subscription deta
 2. Exploratory Data Analysis (EDA)
 3. Feature Engineering
 4. Model Training (Random Forest, Logistic Regression)
-5. Evaluation (Accuracy: 85%, Confusion Matrix, ROC Curve)
+5. Evaluation (Accuracy: **97%**, Confusion Matrix, ROC Curve)
 
 ## Tools Used
 - Python (Pandas, Scikit-learn, Matplotlib)
-- Jupyter Notebook
+- Anaconda (Spyder)
 
 ## Key Results
 - Identified top factors influencing churn.
-- Model Accuracy: 85%
+- Model Accuracy: **96%**
 
 ## Files
 - `churn_prediction.py`: Python script for preprocessing, training, and evaluation.
