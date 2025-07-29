@@ -1,72 +1,39 @@
-# 📊 Customer Churn Prediction
+<img width="1031" height="545" alt="image" src="https://github.com/user-attachments/assets/6c94ba5c-53af-4f58-a5cc-7a3b8c884866" /># 📊 Customer Churn Prediction
 
-## 📌 Project Overview
-Customer churn is when a customer stops using a company's service.  
-Predicting churn is critical for **customer retention strategies** because retaining existing customers is often more cost-effective than acquiring new ones.
-
-This project builds a **machine learning pipeline** to predict whether a customer will churn based on transaction history, engagement data, and behavioral metrics.
-
----
-
-## 🎯 Objectives
-- **Identify** customers likely to churn.
-- **Analyze** which features most influence churn.
-- **Compare** multiple ML models for prediction performance.
-- **Provide** insights to improve retention strategies.
+## 📌 Overview
+This project predicts whether a customer will churn based on transaction history, engagement data, and behavioral patterns.  
+It uses feature engineering, categorical encoding, and Random Forest feature selection to identify the most important predictors, and compares multiple ML models.
 
 ---
 
 ## 🗂 Dataset
-Example of the dataset structure:
-
-| custid | retained | created    | firstorder | lastorder  | esent | eopenrate | eclickrate | avgorder | ordfreq | paperless | refill | doorstep | favday | city |
-|--------|----------|------------|------------|------------|-------|-----------|------------|----------|---------|-----------|--------|----------|--------|------|
-| 6H6T6N | 0        | 9/28/2012  | 11/08/2013 | 11/08/2013 | 29    | 100       | 3.45       | 14.52    | 0       | 0         | 0      | 0        | Monday | CHO  |
-| APCENR | 1        | 12/19/2010 | 01/04/2011 | 19/01/2014 | 95    | 92.63     | 10.53      | 83.69    | 0.18    | 1         | 1      | 1        | Friday | CHO  |
-
-**Key Columns:**
-- `retained`: Target variable (1 = retained, 0 = churned)
-- `esent`, `eopenrate`, `eclickrate`: Email engagement metrics
-- `avgorder`, `ordfreq`: Purchase patterns
-- `favday`: Favorite day for purchases
-- `city`: Customer location
+Example:
+| custid | retained | created    | firstorder | lastorder  | esent | eopenrate | eclickrate | avgorder | ordfreq | favday | city |
+|--------|----------|------------|------------|------------|-------|-----------|------------|----------|---------|--------|------|
+| 6H6T6N | 0        | 9/28/2012  | 11/08/2013 | 11/08/2013 | 29    | 100       | 3.45       | 14.52    | 0       | Monday | CHO  |
+| APCENR | 1        | 12/19/2010 | 01/04/2011 | 19/01/2014 | 95    | 92.63     | 10.53      | 83.69    | 0.18    | Friday | CHO  |
 
 ---
 
-## 🛠 Tools & Technologies
-- **Python**: Pandas, NumPy, Scikit-learn, Seaborn, Matplotlib
-- **ML Models**: Logistic Regression, Random Forest, Neural Network, Gradient Boosting, XGBoost, LightGBM, CatBoost
-- **Feature Selection**: Random Forest importance-based selection
-- **Evaluation Metrics**: Accuracy, Precision, Recall, F1 Score, ROC-AUC
-- **PDF Reporting**: FPDF
+## 🛠 Tools & Libraries
+- Python, Pandas, NumPy, Scikit-learn
+- Seaborn, Matplotlib
+- Category Encoders
+- XGBoost, LightGBM, CatBoost
+- FPDF (for PDF report generation)
 
 ---
 
 ## 🔍 Approach
-1. **Data Preprocessing**
-   - Date parsing and missing value handling
-   - Feature engineering: recency, tenure, order intervals, ratios
-   - One-hot encoding for categorical variables (`favday`, `city`)
-
-2. **Feature Selection**
-   - Random Forest feature importance
-   - Keep features with importance ≥ 0.005
-
-3. **Model Training**
-   - Hyperparameter tuning with `GridSearchCV`
-   - Models tested: Logistic Regression, Random Forest, Neural Network, Gradient Boosting, XGBoost, LightGBM, CatBoost
-
-4. **Evaluation**
-   - Compare Accuracy and F1 Score
-   - Generate confusion matrices & ROC curves
-   - Save all results in a **PDF report** for business presentation
+1. **Data Preprocessing** — Handle dates, missing values, feature engineering (recency, tenure, ratios)
+2. **Feature Selection** — Random Forest importance ≥ 0.005
+3. **Model Training** — Logistic Regression, Random Forest, Neural Network, Gradient Boosting, XGBoost, LightGBM, CatBoost
+4. **Evaluation** — Accuracy, F1 Score, Confusion Matrix, ROC Curve
 
 ---
 
 ## 📈 Results
-
 **Final Model Accuracies & F1 Scores:**
-
 | Model              | Accuracy | F1 Score |
 |--------------------|----------|----------|
 | Random Forest      | 0.9685   | 0.9804   |
@@ -77,36 +44,32 @@ Example of the dataset structure:
 
 ---
 
-## 📊 Feature Importance (Top 10)
+## 📊 Visualizations
+### Feature Importance
+![Feature Importance](visualizations/<img width="1031" height="545" alt="image" src="https://github.com/user-attachments/assets/6e82cf82-9c97-494d-95c7-299d1d514b6d" />
+)
 
-![Feature Importance](visualizations/top_features.png)
-
----
-
-## 📉 Model Performance Charts
-
-**Accuracy Comparison:**
+### Accuracy Comparison
 ![Accuracy Comparison](visualizations/model_accuracy.png)
 
-**F1 Score Comparison:**
+### F1 Score Comparison
 ![F1 Score Comparison](visualizations/model_f1_score.png)
 
 ---
 
 ## 📄 PDF Report
-The project automatically generates a PDF file:  
-**`Churn_Model_Report.pdf`**  
-This report contains:
-- Selected features list
-- Feature importance plot
-- Confusion matrices for all models
-- ROC curves for all models
-- Accuracy and F1 Score comparison charts
+The project generates a **[Churn_Model_Report.pdf](Churn_Model_Report.pdf)** with:
+- Selected features
+- Feature importance chart
+- Confusion matrices
+- ROC curves
+- Accuracy & F1 comparison
 
 ---
 
 ## ▶️ How to Run
-1. **Clone the repository**
 ```bash
 git clone https://github.com/Muzammil550/Customer-Churn-Prediction.git
 cd Customer-Churn-Prediction
+pip install -r requirements.txt
+python churn_prediction.py
