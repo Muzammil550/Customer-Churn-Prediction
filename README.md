@@ -1,33 +1,47 @@
-# Customer-Churn-Prediction
-"A Machine Learning Reeal project to predict customer churn using Python and ML models."
+# **Customer Churn Prediction**
+*A real-world machine learning project to predict customer churn using Python and advanced ML models.*
 
-## Project Overview
-This project predicts customer churn using machine learning techniques. It aims to help businesses identify at-risk customers and improve retention strategies.
+---
 
-## Dataset
-The dataset contains customer demographics, service usage, and subscription details.
+## 📌 Project Overview
+This project predicts **customer churn** — identifying customers likely to stop using a product or service — by analyzing demographics, service usage, and subscription data.  
+The aim is to help businesses **proactively retain customers** by taking targeted action before churn happens.
 
-## Methodology
-1. Data Cleaning and Preprocessing
-2. Exploratory Data Analysis (EDA)
-3. Feature Engineering
-4. Model Training (Random Forest, Logistic Regression)
-5. Evaluation (Accuracy: **97%**, Confusion Matrix, ROC Curve)
+---
 
-## Tools Used
-- Python (Pandas, Scikit-learn, Matplotlib)
-- Anaconda (Spyder)
+## 📊 Dataset
+The dataset includes:
+- **Customer demographics** (e.g., age, gender, location)
+- **Service usage patterns**
+- **Subscription details & contract types**
+- **Churn label** indicating whether the customer left or stayed
 
-## Key Results
-- Identified top factors influencing churn.
-- Model Accuracy: **97%**
+---
 
-## Files
-- `churn_prediction.py`: Python script for preprocessing, training, and evaluation.
-- `data/customer_churn.csv`: Dataset used for analysis.
-- `visualizations/`: Folder with charts and graphs.
+## 🛠 Methodology
+1. **Data Cleaning & Preprocessing** – Handling missing values, encoding categorical variables, scaling features  
+2. **Exploratory Data Analysis (EDA)** – Identifying churn trends and key patterns  
+3. **Feature Engineering** – Creating new variables to improve prediction accuracy  
+4. **Model Training** – Compared **Logistic Regression** and **Random Forest** using **GridSearchCV** for hyperparameter tuning  
+5. **Evaluation** – Measured performance with Accuracy, Confusion Matrix, and ROC Curve  
 
-## How to Run
-1. Clone the repository: `git clone <repository_link>`
-2. Install dependencies: `pip install -r requirements.txt`
-3. Run the script: `python churn_prediction.py`
+---
+
+## 📈 Key Results
+| Model | Accuracy |
+|-------|----------|
+| Logistic Regression | **94.18%** |
+| Random Forest | **96.85%** ✅ |
+
+- **Random Forest** performed best, effectively capturing complex relationships in the data  
+- Identified top churn factors, such as contract type, tenure, and service usage  
+
+---
+
+## 🛠 Tools & Libraries
+- **Python**: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn  
+- **Environment**: Anaconda (Spyder / Jupyter Notebook)  
+
+---
+
+## 📂 Project Structure
