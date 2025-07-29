@@ -1,5 +1,5 @@
 # Customer-Churn-Prediction
-"A machine learning project to predict customer churn using Python and ML models."
+"A Machine Learning Reeal project to predict customer churn using Python and ML models."
 
 ## Project Overview
 This project predicts customer churn using machine learning techniques. It aims to help businesses identify at-risk customers and improve retention strategies.
@@ -20,7 +20,7 @@ The dataset contains customer demographics, service usage, and subscription deta
 
 ## Key Results
 - Identified top factors influencing churn.
-- Model Accuracy: **96%**
+- Model Accuracy: **97%**
 
 ## Files
 - `churn_prediction.py`: Python script for preprocessing, training, and evaluation.
