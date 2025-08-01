@@ -1,5 +1,3 @@
-<img width="1031" height="545" alt="image" src="https://github.com/user-attachments/assets/6c94ba5c-53af-4f58-a5cc-7a3b8c884866" /># 📊 Customer Churn Prediction
-
 ## 📌 Overview
 This project predicts whether a customer will churn based on transaction history, engagement data, and behavioral patterns.  
 It uses feature engineering, categorical encoding, and Random Forest feature selection to identify the most important predictors, and compares multiple ML models.
