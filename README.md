@@ -48,16 +48,16 @@ Example:
 )
 
 ### Confusion Matrix with Accuracy and F1 Score 
-<img width="75%" alt="Screenshot 2025-09-06 110116" src="https://github.com/user-attachments/assets/598e71d8-1722-4e29-b7ba-d0a8071d30fd" />
+<img width="65%" alt="Screenshot 2025-09-06 110116" src="https://github.com/user-attachments/assets/598e71d8-1722-4e29-b7ba-d0a8071d30fd" />
 
 ### ROC Curve
-<img width="75%" alt="Screenshot 2025-09-06 110137" src="https://github.com/user-attachments/assets/0be44e0a-de75-4f94-ab75-5be927970f8c" />
+<img width="65%" alt="Screenshot 2025-09-06 110137" src="https://github.com/user-attachments/assets/0be44e0a-de75-4f94-ab75-5be927970f8c" />
 
 ### Customer Segmentation
-<img width="75%" alt="Screenshot 2025-07-15 202013" src="https://github.com/user-attachments/assets/d0bb19b7-b68c-447b-ad20-7f12e10f4ce4" />
+<img width="65%" alt="Screenshot 2025-07-15 202013" src="https://github.com/user-attachments/assets/d0bb19b7-b68c-447b-ad20-7f12e10f4ce4" />
 
 ### K-Mean Clustering
-<img width="75%" alt="Screenshot 2025-07-15 201959" src="https://github.com/user-attachments/assets/dc2784f6-b829-4552-aebc-1cc34b82234b" />
+<img width="65%" alt="Screenshot 2025-07-15 201959" src="https://github.com/user-attachments/assets/dc2784f6-b829-4552-aebc-1cc34b82234b" />
 
 
 
