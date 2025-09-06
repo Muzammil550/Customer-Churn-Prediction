@@ -54,10 +54,10 @@ Example:
 <img width="83%" alt="Screenshot 2025-09-06 110137" src="https://github.com/user-attachments/assets/0be44e0a-de75-4f94-ab75-5be927970f8c" />
 
 ### Customer Segmentation
-<img width="1415" height="907" alt="Screenshot 2025-07-15 202013" src="https://github.com/user-attachments/assets/d0bb19b7-b68c-447b-ad20-7f12e10f4ce4" />
+<img width="83%" alt="Screenshot 2025-07-15 202013" src="https://github.com/user-attachments/assets/d0bb19b7-b68c-447b-ad20-7f12e10f4ce4" />
 
 ### K-Mean Clustering
-<img width="1229" height="865" alt="Screenshot 2025-07-15 201959" src="https://github.com/user-attachments/assets/dc2784f6-b829-4552-aebc-1cc34b82234b" />
+<img width="83%" alt="Screenshot 2025-07-15 201959" src="https://github.com/user-attachments/assets/dc2784f6-b829-4552-aebc-1cc34b82234b" />
 
 
 
