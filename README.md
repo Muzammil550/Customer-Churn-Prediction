@@ -70,7 +70,7 @@ The project generates a **[Churn_Model_Report.pdf](Churn_Model_Report.pdf)** wit
 - Confusion matrices
 - ROC curves
 - Accuracy & F1 comparison
-
+- K-mean Segmentation
 ---
 
 ## ▶️ How to Run
