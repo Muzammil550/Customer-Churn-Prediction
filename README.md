@@ -47,11 +47,11 @@ Example:
 ![Feature Importance](visualizations/<img width="1031" height="545" alt="image" src="https://github.com/user-attachments/assets/6e82cf82-9c97-494d-95c7-299d1d514b6d" />
 )
 
-### Accuracy Comparison
-![Accuracy Comparison](visualizations/model_accuracy.png)
+### Confusion Matrix with Accuracy and F1 Score 
+<img width="1846" height="1383" alt="Screenshot 2025-09-06 110116" src="https://github.com/user-attachments/assets/598e71d8-1722-4e29-b7ba-d0a8071d30fd" />
 
-### F1 Score Comparison
-![F1 Score Comparison](visualizations/model_f1_score.png)
+### ROC Curve
+<img width="1394" height="1268" alt="Screenshot 2025-09-06 110137" src="https://github.com/user-attachments/assets/0be44e0a-de75-4f94-ab75-5be927970f8c" />
 
 ---
 
